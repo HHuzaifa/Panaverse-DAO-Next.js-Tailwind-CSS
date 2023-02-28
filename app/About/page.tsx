@@ -1,4 +1,3 @@
-
 export default function About() {
   return (
     // This is the first section of ABOut
@@ -45,5 +44,7 @@ export default function About() {
         </div>
       </div>
     </section>
+
+
   );
 }
