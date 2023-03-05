@@ -4,7 +4,7 @@ export default function DetailedProgram() {
   return (
     <section>
       <div className="py-32  bg-[#0E091D] flex flex-col px-36 bg-gradient-to-r from-[#0E091D] via-black to-[#530840]">
-        <div className="flex flex-col justify-centercenter text-center">
+        <div className="flex flex-col justify-center text-center">
           <h1 className="text-white text-3xl font-bold font-mono">Program in Detail</h1>
         </div>
         <div className="flex flex-col px-36 justify-centercenter text-center pt-16">
@@ -35,22 +35,22 @@ export default function DetailedProgram() {
         <div className="justify-center flex p-24 flex-row items-center">
           <Image
             src="/sirAdil.jpg"
-            width="340"
-            height="280"
+            width="300"
+            height="240"
             alt="sir adil image"
             className="border-white rounded-md border-2 mx-2"
           />
           <Image
             src="/classRoom.jpg"
-            width="340"
-            height="280"
+            width="300"
+            height="240"
             alt="classroom image"
             className="border-white rounded-md border-2 mx-2"
           />
           <Image
             src="/sirZia.jpg"
-            width="340"
-            height="280"
+            width="300"
+            height="240"
             alt="sir zia image"
             className="border-white rounded-md border-2 mx-2"
           />

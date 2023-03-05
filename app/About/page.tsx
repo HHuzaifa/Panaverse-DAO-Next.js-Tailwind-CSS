@@ -1,50 +1,60 @@
+import Image from "next/image";
+
 export default function About() {
   return (
-    // This is the first section of ABOut
-
-    <section className="relative h-screen ">
-      {/* This is the background image */}
-
-      <div className="absolute inset-0">
-        <img
-          src="/HeroBGimage.png"
-          className="w-full h-full object-cover"
-          alt="Hero Background Image"
-        ></img>
-      </div>
-
-      {/* This div conatins the text div and an image div */}
-
-      <div>
-        {/* Text DIV */}
-
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center pr-44 pt-14">
-          <h1 className="text-3xl font-bold font-mono text-white mb-4 pr-28">
-            Certified Web 3.0 and Metaverse Developer
-          </h1>
-          <p className="text-lg text-white font-light mb-8 pr-28">
-            A One and Quarter Years Panaverse DAO Earn as you Learn Program
-            Getting Ready for the Next Generation of the Internet
-          </p>
-          <p className="text-md font-light text-white pr-28">
-            Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
-            Cloud, Edge, Ambient Computing/IoT, Network Automation, and
-            Bioinformatics Technologies
-          </p>
+    <section className="relative h-auto">
+      <div className="w-screen flex justify-center relative h-screen">
+        <div className="absolute inset-0">
+          <img
+            src="/heroBGimageMobile.png"
+            className="w-screen h-screen"
+            alt="Hero Background desktop Image"
+          ></img>
         </div>
 
-        {/* Image DIV */}
-
-        <div className="absolute top-1/2 right-10 transform -translate-y-1/2 pr-32">
+        <div className="absolute inset-0">
           <img
-            src="/heroAvatar.png"
-            alt="hero avatar image"
-            className="w-50 h-50 rounded-lg object-cover"
+            src="/heroBGimageTablet.png"
+            className="w-screen h-screen"
+            alt="Hero Background tablet Image"
           ></img>
+        </div>
+
+        <div className="absolute inset-0">
+          <img
+            src="/heroBGimageDesktop.png"
+            className="w-full h-full object-cover sm:hidden md:hidden"
+            alt="Hero Background desktop Image"
+          >
+          </img>
+        </div>
+
+        <div className="lg:flex lg:flex-row lg:items-center lg:mt-24 lg:ml-36">
+          <div className="flex justify-center transform md:mb-6 lg:w-80 lg:h-80">
+            <Image
+              src="/heroAvatar.png"
+              width="300"
+              height="300"
+              alt="panaverse hero avatar"
+              className="rounded-b-full md:w-100 md:h-100 lg:object-cover lg:ml-60"
+            />
+          </div>
+          <div className="flex justify-end flex-col relative items-center text-center mx-10 md:mx-32 lg:mx-64">
+            <h1 className="text-2xl md:text-3xl font-bold font-mono text-white my-5 lg:text-4xl">
+              Certified Web 3.0 and Metaverse Developer
+            </h1>
+            <p className=" text-sm md:text-base font-light text-white my-6 md:my-10">
+              A One and Quarter Years Panaverse DAO Earn as you Learn Program
+              Getting Ready for the Next Generation of the Internet
+            </p>
+            <p className="text-sm md:text-base font-light text-white">
+              Consolidating Web 3.0, Metaverse, Artificial Intelligence (AI),
+              Cloud, Edge, Ambient Computing/IoT, Network Automation, and
+              Bioinformatics Technologies
+            </p>
+          </div>
         </div>
       </div>
     </section>
-
-
   );
 }
