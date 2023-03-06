@@ -12,7 +12,7 @@ export default function Footer() {
             alt="footer logo"
           />
         </div>
-        <p className="text-white text-sm pb-8 font-light text-center px-96">
+        <p className="text-white text-sm pb-10 font-light text-center py-10">
           Certified Web 3.0 and Metaverse Developer A One and Quarter Years
           Panaverse DAO Earn as you Learn Program Getting Ready for the Next
           Generation of the Internet

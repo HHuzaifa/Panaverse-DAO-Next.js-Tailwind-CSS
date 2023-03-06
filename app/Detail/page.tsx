@@ -3,11 +3,11 @@ import Image from "next/image";
 export default function DetailedProgram() {
   return (
     <section>
-      <div className="py-32  bg-[#0E091D] flex flex-col px-36 bg-gradient-to-r from-[#0E091D] via-black to-[#530840]">
+      <div className="py-24  bg-[#0E091D] flex flex-col bg-gradient-to-r from-[#0E091D] via-black to-[#530840]">
         <div className="flex flex-col justify-center text-center">
           <h1 className="text-white text-3xl font-bold font-mono">Program in Detail</h1>
         </div>
-        <div className="flex flex-col px-36 justify-centercenter text-center pt-16">
+        <div className="flex flex-col px-5 justify-centercenter text-center pt-16 lg:px-14 xl:px-24">
           <p className="text-white text-lg font-light">
             This curriculum is intended for beginners who want to learn software
             development from the ground up. The first three quarters are shared
@@ -32,27 +32,27 @@ export default function DetailedProgram() {
 
       <section className="bg-white">
     
-        <div className="justify-center flex p-24 flex-row items-center">
+        <div className="justify-center flex flex-col md:flex-row py-10 items-center lg:py-28">
           <Image
             src="/sirAdil.jpg"
             width="300"
             height="240"
             alt="sir adil image"
-            className="border-white rounded-md border-2 mx-2"
+            className="border-white rounded-md border-2 mx-2 md:w-56 lg:w-72 xl:w-96"
           />
           <Image
             src="/classRoom.jpg"
             width="300"
             height="240"
             alt="classroom image"
-            className="border-white rounded-md border-2 mx-2"
+            className="border-white rounded-md border-2 mx-2 py-3 md:w-56 lg:w-72 xl:w-96"
           />
           <Image
             src="/sirZia.jpg"
             width="300"
             height="240"
             alt="sir zia image"
-            className="border-white rounded-md border-2 mx-2"
+            className="border-white rounded-md border-2 mx-2 md:w-56 lg:w-72 xl:w-96"
           />
         </div>
       </section>

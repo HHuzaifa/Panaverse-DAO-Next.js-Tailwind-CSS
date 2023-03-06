@@ -4,11 +4,20 @@ export default function End_Goal() {
   return (
     <>
       <section>
-        <div className="flex justify-center m-12 items-center pl-24">
+        <div className="flex flex-col text-center lg:mr-20 lg:my-32 justify-center m-12 items-center my-20 lg:flex-row">
+          <div className="flex lg:mb-10 lg:mt-28">
+            <Image
+              src="/endGoal.png"
+              width="650"
+              height="580"
+              alt="end goal section image"
+              className="lg:max-h-56 lg:max-w-md"
+            />
+          </div>
 
-          <div className="flex flex-col justify-center ml-8 max-w-xs m-20">
+          <div className="flex flex-col justify-center max-w-xs">
             <p className="text-[#001038] font-bold font-mono text-2xl text-center">
-            The Outcome for Participants of the Program
+              The Outcome for Participants of the Program
             </p>
             <div className="bg-[#001038] p-6 rounded-2xl shadow-xl mt-8">
               <p className="text-white font-light text-lg text-center">
@@ -19,16 +28,6 @@ export default function End_Goal() {
                 project
               </p>
             </div>
-          </div>
-
-          <div className="flex items-center m-20">
-            <Image
-              src="/endGoal.png"
-              width="450"
-              height="380"
-              alt="end goal section image"
-              className="flex-shrink-0"
-            />
           </div>
         </div>
       </section>
