@@ -23,9 +23,10 @@ export default function About() {
         <div className="absolute inset-0">
           <img
             src="/heroBGimageDesktop.png"
-            className="w-full object-cover sm:hidden "
+            className="w-full h-full object-cover sm:hidden md:hidden"
             alt="Hero Background desktop Image"
-          ></img>
+          >
+          </img>
         </div>
 
         <div className="lg:flex lg:flex-row lg:items-center lg:mt-24 lg:ml-36 2xl:mb-44">
