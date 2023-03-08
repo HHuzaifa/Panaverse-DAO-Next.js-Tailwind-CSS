@@ -14,7 +14,7 @@ export default function Courses() {
           <h3 className="text-white font-bold text-lg font-mono">
             “Common in all specialization”
           </h3>
-          <p className="text-gray-300 text-sm font-mono mt-11 justify-center max-w-md text-center">
+          <p className="text-gray-300 text-sm font-mono mt-11 mx-8 justify-center max-w-md text-center">
             Every participant of the program will start by completing the
             following three core courses.
           </p>
